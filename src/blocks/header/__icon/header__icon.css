@@ -1,0 +1,10 @@
+.header__icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  z-index: 1;
+}
+
+.header__icon:hover {
+  cursor: pointer;
+}

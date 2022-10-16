@@ -1,0 +1,9 @@
+.page {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #eaeaea;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 0 auto;
+}

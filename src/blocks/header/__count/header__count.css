@@ -1,0 +1,16 @@
+.header__count {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  background-color: #ffa542;
+  border-radius: 50%;
+  min-width: 18px;
+  top: -9px;
+  right: -9px;
+  z-index: 10;
+}

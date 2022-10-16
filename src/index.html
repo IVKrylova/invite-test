@@ -2,9 +2,22 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Тестовое задание</title>
   </head>
-  <body>
-    <h1>QPICK</h1>
+  <body class="page">
+    <header class="header">
+      <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>" />
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <img class="header__icon" alt="Иконка Избранное" src="<%=require('./images/chosen.svg')%>" />
+          <p class="header__count">2</p>
+        </li>
+        <li class="header__menu-item">
+          <img class="header__icon" alt="Иконка Корзина" src="<%=require('./images/cart.svg')%>" />
+          <p class="header__count">2</p>
+        </li>
+      </ul>
+    </header>
   </body>
 </html>
