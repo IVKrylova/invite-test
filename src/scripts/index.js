@@ -6,8 +6,7 @@ const wirelessHeadphonesList = document.querySelector('.wireless-headphones-list
 const countInCartElement = document.querySelector('.header__count_place_cart');
 
 let countItemsInCart = 0;
-
-countInCartElement.textContent = countItemsInCart;
+const itemsInCart = [];
 
 const createHeadphonesItem = headphonesItem => {
   const templateHeadphones = document.querySelector('#template-headphones').content;
@@ -35,6 +34,12 @@ const createHeadphonesItem = headphonesItem => {
     ++countItemsInCart;
     countInCartElement.textContent = countItemsInCart;
     sessionStorage.setItem('countInCart', countItemsInCart);
+    itemsInCart.push({
+      img: img,
+      title: title,
+      price: finalyPrice,
+    });
+    sessionStorage.setItem('itemsInCart', JSON.stringify(itemsInCart));
   });
 
   return headphones;
