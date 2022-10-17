@@ -47,11 +47,13 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/pages/index/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      chunks: ['main']
     }),
     new HtmlWebpackPlugin({
       template: './src/pages/cart/cart.html',
-      filename: 'cart.html'
+      filename: 'cart.html',
+      chunks: ['cart']
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
