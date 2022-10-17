@@ -30,7 +30,7 @@ const createHeadphonesItem = headphonesItem => {
 
   if (discount === 0) headphonesInitialPrice.classList.add('headphones-item__initial-price_hidden');
 
-  headphonesButton.addEventListener('click', evt => {
+  headphonesButton.addEventListener('click', _ => {
     ++countItemsInCart;
     countInCartElement.textContent = countItemsInCart;
     sessionStorage.setItem('countInCart', countItemsInCart);
