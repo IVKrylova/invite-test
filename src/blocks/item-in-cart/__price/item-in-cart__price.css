@@ -6,3 +6,9 @@
   margin: 12px 0 0;
   padding: 0;
 }
+
+@media screen and (max-width: 400px) {
+  .item-in-cart__price {
+    font-size: 13px;
+  }
+}

@@ -12,3 +12,9 @@
   margin: 13px 0 0;
   height: min-content;
 }
+
+@media screen and (max-width: 680px) {
+  .cart__result  {
+    max-width: 310px;
+  }
+}

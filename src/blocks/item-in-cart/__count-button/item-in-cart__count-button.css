@@ -6,8 +6,16 @@
   width: 35px;
   height: 30px;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .item-in-cart__count-button:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 340px) {
+  .item-in-cart__count-button  {
+    width: 25px;
+    height: 20px;
+  }
 }

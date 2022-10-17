@@ -8,3 +8,15 @@
   width: 100%;
   row-gap: 20px;
 }
+
+@media screen and (max-width: 900px) {
+  .cart__list  {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .cart__list  {
+    max-width: 310px;
+  }
+}

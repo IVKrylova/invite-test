@@ -6,3 +6,9 @@
   line-height: 1.2;
   color: #1c1c27;
 }
+
+@media screen and (max-width: 400px) {
+  .item-in-cart__title {
+    font-size: 13px;
+  }
+}

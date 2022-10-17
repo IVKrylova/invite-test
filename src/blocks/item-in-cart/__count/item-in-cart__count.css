@@ -5,3 +5,9 @@
   column-gap: 23px;
   margin-top: 17px;
 }
+
+@media screen and (max-width: 400px) {
+  .item-in-cart__count {
+    column-gap: 15px;
+  }
+}

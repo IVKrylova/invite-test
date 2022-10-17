@@ -4,4 +4,14 @@
   line-height: 1.2;
   text-align: right;
   color: #1c1c27;
+  margin: 0;
+  padding: 0;
+  align-self: end;
 }
+
+@media screen and (max-width: 400px) {
+  .item-in-cart__total-price {
+    font-size: 13px;
+  }
+}
+

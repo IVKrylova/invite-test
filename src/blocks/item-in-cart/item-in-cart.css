@@ -9,3 +9,10 @@
   position: relative;
   grid-template-columns: min-content;
 }
+
+@media screen and (max-width: 680px) {
+  .item-in-cart  {
+    column-gap: 10px;
+    padding: 10px;
+  }
+}

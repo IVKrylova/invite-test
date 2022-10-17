@@ -2,3 +2,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1200px) {
+  .cart {
+    flex-direction: column;
+  }
+}

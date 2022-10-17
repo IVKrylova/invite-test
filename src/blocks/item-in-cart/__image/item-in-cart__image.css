@@ -4,4 +4,18 @@
   grid-row: 1 / 2;
   width: 147px;
   height: 136px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 680px) {
+  .item-in-cart__image  {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .item-in-cart__image  {
+    width: 80px;
+  }
 }
