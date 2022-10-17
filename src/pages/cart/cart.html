@@ -24,7 +24,15 @@
       </ul>
     </header>
     <main class="cart-page">
-
+      <h1 class="section-title section-title_place_cart">Корзина</h1>
+      <div class="cart">
+        <ul class="cart__list"></ul>
+        <div class="cart__result">
+          <p class="cart__text">ИТОГО</p>
+          <p class="cart__sum">1111</p>
+          <button type="button" class="cart__button">Перейти к оформлению</button>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <img class="logo" alt="Логотип" src="<%=require('../../images/logo.svg')%>">
@@ -73,5 +81,21 @@
         </li>
       </ul>
     </footer>
+    <template id="template-item-in-cart">
+      <li class="item-in-cart">
+        <img class="item-in-cart__image">
+        <div class="item-in-cart__description">
+          <h2 class="item-in-cart__title"></h2>
+          <p class="item-in-cart__price"></p>
+        </div>
+        <div class="item-in-cart__count">
+          <button class="item-in-cart__count-button item-in-cart__count-button_minus" type="button" aria-label="удалить один товар"></button>
+          <p class="item-in-cart__count-value"></p>
+          <button class="item-in-cart__count-button item-in-cart__count-button_plus" type="button" aria-label="добавить один товар"></button>
+        </div>
+        <p class="item-in-cart__total-price"></p>
+        <button class="item-in-cart__button-delete" aria-label="Кнопка удалить из корзины" type="button"></button>
+      </li>
+    </template>
   </body>
 </html>

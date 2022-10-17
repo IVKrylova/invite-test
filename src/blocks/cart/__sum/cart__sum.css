@@ -1,0 +1,6 @@
+.cart__sum {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin: 22px 22px 15px 0;
+  padding: 0;
+}

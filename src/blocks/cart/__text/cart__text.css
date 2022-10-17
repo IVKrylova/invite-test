@@ -1,0 +1,6 @@
+.cart__text {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: 22px 0 15px 22px;
+  padding: 0;
+}
