@@ -1,0 +1,45 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts/montserrat/montserrat.css);
+@import url(../../blocks/page/page.css);
+
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/header/__menu/header__menu.css);
+@import url(../../blocks/header/__menu-item/header__menu-item.css);
+@import url(../../blocks/header/__icon/header__icon.css);
+@import url(../../blocks/header/__count/header__count.css);
+
+@import url(../../blocks/logo/logo.css);
+
+@import url(../../blocks/main-page/main-page.css);
+
+@import url(../../blocks/headphones/headphones.css);
+@import url(../../blocks/headphones/__list/headphones__list.css);
+
+@import url(../../blocks/section-title/section-title.css);
+
+@import url(../../blocks/headphones-item/headphones-item.css);
+@import url(../../blocks/headphones-item/__image/headphones-item__image.css);
+@import url(../../blocks/headphones-item/__title/headphones-item__title.css);
+@import url(../../blocks/headphones-item/__price/headphones-item__price.css);
+@import url(../../blocks/headphones-item/__finaly-price/headphones-item__finaly-price.css);
+@import url(../../blocks/headphones-item/__initial-price/headphones-item__initial-price.css);
+@import url(../../blocks/headphones-item/__initial-price/_hidden/headphones-item__initial-price_hidden.css);
+@import url(../../blocks/../blocks/headphones-item/__rate/headphones-item__rate.css);
+@import url(../../blocks/headphones-item/__icon-star/headphones-item__icon-star.css);
+@import url(../../blocks/headphones-item/__rating-value/headphones-item__rating-value.css);
+@import url(../../blocks/headphones-item/__button/headphones-item__button.css);
+
+@import url(../../blocks/footer/footer.css);
+@import url(../../blocks/footer/__links/footer__links.css);
+@import url(../../blocks/footer/__link-item/_place_row-one-col-one/footer__link-item_place_row-one-col-one.css);
+@import url(../../blocks/footer/__link-item/_place_row-two-col-one/footer__link-item_place_row-two-col-one.css);
+@import url(../../blocks/footer/__link-item/_place_row-three-col-one/footer__link-item_place_row-three-col-one.css);
+@import url(../../blocks/footer/__link-item/_place_row-two-col-one/footer__link-item_place_row-two-col-one.css);
+@import url(../../blocks/footer/__link-item/_place_row-three-col-two/footer__link-item_place_row-three-col-two.css);
+@import url(../../blocks/footer/__link/footer__link.css);
+@import url(../../blocks/footer/__langs/footer__langs.css);
+@import url(../../blocks/footer/__lang-link/footer__lang-link.css);
+@import url(../../blocks/footer/__lang-link/_active/footer__lang-link_active.css);
+@import url(../../blocks/footer/__social-networks-list/footer__social-networks-list.css);
+@import url(../../blocks/footer/__social-network-link/footer__social-network-link.css);
+@import url(../../blocks/footer/__social-network-logo/footer__social-network-logo.css);

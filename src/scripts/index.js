@@ -1,4 +1,4 @@
-import '../pages/index.css';
+import '../pages/index/index.css';
 import { headphones, wirelessHeadphones } from '../utils/data';
 
 const headphonesList = document.querySelector('.headphones__list');
