@@ -3,6 +3,11 @@ import { headphones, wirelessHeadphones } from '../utils/data';
 
 const headphonesList = document.querySelector('.headphones__list');
 const wirelessHeadphonesList = document.querySelector('.wireless-headphones-list');
+const countInCartElement = document.querySelector('.header__count_place_cart');
+
+let countItemsInCart = 0;
+
+countInCartElement.textContent = countItemsInCart;
 
 const createHeadphonesItem = headphonesItem => {
   const templateHeadphones = document.querySelector('#template-headphones').content;
@@ -25,6 +30,12 @@ const createHeadphonesItem = headphonesItem => {
   headphonesRatingValue.textContent = rate;
 
   if (discount === 0) headphonesInitialPrice.classList.add('headphones-item__initial-price_hidden');
+
+  headphonesButton.addEventListener('click', evt => {
+    ++countItemsInCart;
+    countInCartElement.textContent = countItemsInCart;
+    sessionStorage.setItem('countInCart', countItemsInCart);
+  });
 
   return headphones;
 }
