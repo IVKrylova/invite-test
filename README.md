@@ -19,4 +19,4 @@
 * Настроена сборка с помощью Webpack
 
 ## Демо
-Посмотреть выполненное задание можно на [GitHub Pages]()
+Посмотреть выполненное задание можно на [GitHub Pages](https://ivkrylova.github.io/invite-test/)
