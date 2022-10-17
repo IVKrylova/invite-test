@@ -22,7 +22,12 @@ const createItem = itemsInCart => {
   itemImage.src = img;
   itemImage.alt = title;
   itemTitle.textContent = title;
-  itemPrice.textContent = price;
+  itemPrice.textContent = `${price} ₽`;
+  itemCountValue.textContent = 1;
+
+  const totalPrice = `${Number(price) *  Number(itemCountValue.textContent)} ₽`;
+
+  itemTotalPrice.textContent = totalPrice;
 
   return item;
 }

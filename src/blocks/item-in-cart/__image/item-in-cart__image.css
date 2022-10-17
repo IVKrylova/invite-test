@@ -1,0 +1,7 @@
+.item-in-cart__image {
+  display: block;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 147px;
+  height: 136px;
+}

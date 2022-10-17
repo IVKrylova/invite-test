@@ -1,0 +1,5 @@
+.item-in-cart__description {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  align-self: center;
+}

@@ -1,0 +1,7 @@
+.item-in-cart__total-price {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: right;
+  color: #1c1c27;
+}

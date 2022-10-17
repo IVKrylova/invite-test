@@ -4,4 +4,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  max-width: 633px;
+  width: 100%;
+  row-gap: 20px;
 }

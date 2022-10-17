@@ -1,0 +1,7 @@
+.item-in-cart__count {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  column-gap: 23px;
+  margin-top: 17px;
+}

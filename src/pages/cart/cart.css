@@ -22,6 +22,19 @@
 @import url(../../blocks/cart/__sum/cart__sum.css);
 @import url(../../blocks/cart/__button/cart__button.css);
 
+@import url(../../blocks/item-in-cart/item-in-cart.css);
+@import url(../../blocks/item-in-cart/__image/item-in-cart__image.css);
+@import url(../../blocks/item-in-cart/__description/item-in-cart__description.css);
+@import url(../../blocks/item-in-cart/__title/item-in-cart__title.css);
+@import url(../../blocks/item-in-cart/__price/item-in-cart__price.css);
+@import url(../../blocks/item-in-cart/__count/item-in-cart__count.css);
+@import url(../../blocks/item-in-cart/__count-value/item-in-cart__count-value.css);
+@import url(../../blocks/item-in-cart/__count-button/item-in-cart__count-button.css);
+@import url(../../blocks/item-in-cart/__count-button/_minus/item-in-cart__count-button_minus.css);
+@import url(../../blocks/item-in-cart/__count-button/_plus/item-in-cart__count-button_plus.css);
+@import url(../../blocks/item-in-cart/__total-price/item-in-cart__total-price.css);
+@import url(../../blocks/item-in-cart/__button-delete/item-in-cart__button-delete.css);
+
 @import url(../../blocks/footer/footer.css);
 @import url(../../blocks/footer/__links/footer__links.css);
 @import url(../../blocks/footer/__link-item/_place_row-one-col-one/footer__link-item_place_row-one-col-one.css);

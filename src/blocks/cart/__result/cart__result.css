@@ -9,4 +9,6 @@
   font-size: 15px;
   line-height: 1.2;
   color: #000;
+  margin: 13px 0 0;
+  height: min-content;
 }

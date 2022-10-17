@@ -1,0 +1,13 @@
+.item-in-cart__count-button {
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  width: 35px;
+  height: 30px;
+  background-size: contain;
+}
+
+.item-in-cart__count-button:hover {
+  cursor: pointer;
+}
