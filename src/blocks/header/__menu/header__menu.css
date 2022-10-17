@@ -1,6 +1,6 @@
 .header__menu {
   padding: 0;
-  margin: 20px 0 15px;
+  margin: 0;
   list-style-type: none;
   display: flex;
   column-gap: 35px;

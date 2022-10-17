@@ -1,0 +1,4 @@
+.footer__link-item_place_row-two-col-one {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}

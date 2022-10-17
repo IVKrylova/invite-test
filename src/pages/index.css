@@ -29,3 +29,17 @@
 @import url(../blocks/headphones-item/__rating-value/headphones-item__rating-value.css);
 @import url(../blocks/headphones-item/__button/headphones-item__button.css);
 
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link-item/_place_row-one-col-one/footer__link-item_place_row-one-col-one.css);
+@import url(../blocks/footer/__link-item/_place_row-two-col-one/footer__link-item_place_row-two-col-one.css);
+@import url(../blocks/footer/__link-item/_place_row-three-col-one/footer__link-item_place_row-three-col-one.css);
+@import url(../blocks/footer/__link-item/_place_row-two-col-one/footer__link-item_place_row-two-col-one.css);
+@import url(../blocks/footer/__link-item/_place_row-three-col-two/footer__link-item_place_row-three-col-two.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__langs/footer__langs.css);
+@import url(../blocks/footer/__lang-link/footer__lang-link.css);
+@import url(../blocks/footer/__lang-link/_active/footer__lang-link_active.css);
+@import url(../blocks/footer/__social-networks-list/footer__social-networks-list.css);
+@import url(../blocks/footer/__social-network-link/footer__social-network-link.css);
+@import url(../blocks/footer/__social-network-logo/footer__social-network-logo.css);

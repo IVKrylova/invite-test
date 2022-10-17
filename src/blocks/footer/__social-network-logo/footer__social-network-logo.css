@@ -1,0 +1,6 @@
+.footer__social-network-logo {
+  display: block;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}

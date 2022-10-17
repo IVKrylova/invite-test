@@ -1,0 +1,12 @@
+.footer__lang-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #101010;
+  text-decoration: none;
+}
+
+.footer__lang-link:hover {
+  cursor: pointer;
+}

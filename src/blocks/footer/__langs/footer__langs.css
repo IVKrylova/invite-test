@@ -1,0 +1,7 @@
+.footer__langs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  column-gap: 15px;
+}
