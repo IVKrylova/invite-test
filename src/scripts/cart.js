@@ -29,6 +29,25 @@ const createItem = itemsInCart => {
 
   itemTotalPrice.textContent = totalPrice;
 
+  itemButtonMinus.addEventListener('click', evt => {
+    const count = Number(itemCountValue.textContent);
+
+    if (count > 1) {
+      itemCountValue.textContent = count - 1;
+    } else {
+      itemCountValue.textContent = 1;
+    }
+
+    itemTotalPrice.textContent = `${Number(price) *  Number(itemCountValue.textContent)} ₽`;
+  });
+
+  itemButtonPlus.addEventListener('click', _ => {
+    const count = Number(itemCountValue.textContent);
+
+    itemCountValue.textContent = count + 1;
+    itemTotalPrice.textContent = `${Number(price) *  Number(itemCountValue.textContent)} ₽`;
+  });
+
   return item;
 }
 
