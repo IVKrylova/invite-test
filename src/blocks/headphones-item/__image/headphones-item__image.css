@@ -1,0 +1,9 @@
+.headphones-item__image {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  width: 220px;
+  height: 237px;
+  justify-self: center;
+  object-fit: contain;
+  margin-bottom: 55px;
+}

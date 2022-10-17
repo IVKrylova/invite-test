@@ -9,3 +9,22 @@
 @import url(../blocks/header/__count/header__count.css);
 
 @import url(../blocks/logo/logo.css);
+
+@import url(../blocks/main-page/main-page.css);
+
+@import url(../blocks/headphones/headphones.css);
+@import url(../blocks/headphones/__list/headphones__list.css);
+
+@import url(../blocks/section-title/section-title.css);
+
+@import url(../blocks/headphones-item/headphones-item.css);
+@import url(../blocks/headphones-item/__image/headphones-item__image.css);
+@import url(../blocks/headphones-item/__title/headphones-item__title.css);
+@import url(../blocks/headphones-item/__price/headphones-item__price.css);
+@import url(../blocks/headphones-item/__finaly-price/headphones-item__finaly-price.css);
+@import url(../blocks/headphones-item/__initial-price/headphones-item__initial-price.css);
+@import url(../blocks/headphones-item/__initial-price/_hidden/headphones-item__initial-price_hidden.css);
+@import url(../blocks/../blocks/headphones-item/__rate/headphones-item__rate.css);
+@import url(../blocks/headphones-item/__icon-star/headphones-item__icon-star.css);
+@import url(../blocks/headphones-item/__rating-value/headphones-item__rating-value.css);
+@import url(../blocks/headphones-item/__button/headphones-item__button.css);

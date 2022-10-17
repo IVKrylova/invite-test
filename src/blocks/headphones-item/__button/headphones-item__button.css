@@ -1,0 +1,21 @@
+.headphones-item__button {
+  margin: 15px 0 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  text-align: right;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #000;
+  max-width: 65px;
+  width: 100%;
+  justify-self: end;
+}
+
+.headphones-item__button:hover {
+  cursor: pointer;
+}

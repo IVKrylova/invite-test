@@ -1,0 +1,7 @@
+.headphones-item__rate {
+  margin-top: 25px;
+  display: flex;
+  column-gap: 10px;
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}

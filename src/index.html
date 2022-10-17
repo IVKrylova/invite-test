@@ -7,17 +7,38 @@
   </head>
   <body class="page">
     <header class="header">
-      <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>" />
+      <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
       <ul class="header__menu">
         <li class="header__menu-item">
-          <img class="header__icon" alt="Иконка Избранное" src="<%=require('./images/chosen.svg')%>" />
+          <img class="header__icon" alt="Иконка Избранное" src="<%=require('./images/chosen.svg')%>">
           <p class="header__count">2</p>
         </li>
         <li class="header__menu-item">
-          <img class="header__icon" alt="Иконка Корзина" src="<%=require('./images/cart.svg')%>" />
+          <img class="header__icon" alt="Иконка Корзина" src="<%=require('./images/cart.svg')%>">
           <p class="header__count">2</p>
         </li>
       </ul>
     </header>
+    <main class="main-page">
+      <section class="headphones" aria-label="Блок с наушниками">
+        <h1 class="section-title">Наушники</h1>
+        <ul class="headphones__list"></ul>
+      </section>
+    </main>
+    <template id="template-headphones">
+      <li class="headphones-item">
+        <img class="headphones-item__image">
+        <h3 class="headphones-item__title"></h3>
+        <div class="headphones-item__price">
+          <p class="headphones-item__finaly-price"></p>
+          <p class="headphones-item__initial-price"></p>
+        </div>
+        <div class="headphones-item__rate">
+          <img class="headphones-item__icon-star" alt="Иконка рейтинга" src="<%=require('./images/star.svg')%>">
+          <p class="headphones-item__rating-value"></p>
+        </div>
+        <button class="headphones-item__button" type="button">Купить</button>
+      </li>
+    </template>
   </body>
 </html>
