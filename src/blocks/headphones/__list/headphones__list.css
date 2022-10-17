@@ -8,3 +8,15 @@
   column-gap: 30px;
   row-gap: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .headphones__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .headphones__list {
+    grid-template-columns: 1fr;
+  }
+}

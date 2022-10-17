@@ -8,3 +8,16 @@
   column-gap: 174px;
   row-gap: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+  .footer__links {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__links {
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+  }
+}

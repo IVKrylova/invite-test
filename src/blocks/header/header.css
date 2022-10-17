@@ -5,3 +5,21 @@
   justify-content: space-between;
   padding: 15px 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .header {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header {
+    max-width: 300px;
+  }
+}

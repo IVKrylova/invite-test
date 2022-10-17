@@ -10,3 +10,23 @@
   padding: 30px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer {
+    max-width: 310px;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
