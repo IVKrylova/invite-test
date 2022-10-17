@@ -2,8 +2,16 @@ import '../pages/cart/cart.css';
 
 const countInCartElement = document.querySelector('.header__count_place_cart');
 const itemsList = document.querySelector('.cart__list');
-
+const totalSumElement = document.querySelector('.cart__sum');
 countInCartElement.textContent = sessionStorage.getItem('countInCart');
+
+const itemsInCart = JSON.parse(sessionStorage.getItem('itemsInCart'));
+const totalSum = itemsInCart.reduce((sum, el) => {
+  return sum + Number(el.price);
+}, 0);
+
+totalSumElement.textContent = `₽ ${totalSum}`;
+sessionStorage.setItem('totalSum', totalSum);
 
 const createItem = itemsInCart => {
   const templateItems = document.querySelector('#template-item-in-cart').content;
@@ -15,7 +23,6 @@ const createItem = itemsInCart => {
   const itemButtonPlus = item.querySelector('.item-in-cart__count-button_plus');
   const itemCountValue = item.querySelector('.item-in-cart__count-value');
   const itemTotalPrice = item.querySelector('.item-in-cart__total-price');
-  const itemButtonDelete = item.querySelector('.item-in-cart__button-delete');
 
   const { img, title, price } = itemsInCart;
 
@@ -29,16 +36,19 @@ const createItem = itemsInCart => {
 
   itemTotalPrice.textContent = totalPrice;
 
-  itemButtonMinus.addEventListener('click', evt => {
+  itemButtonMinus.addEventListener('click', _ => {
     const count = Number(itemCountValue.textContent);
 
     if (count > 1) {
       itemCountValue.textContent = count - 1;
+      itemTotalPrice.textContent = `${Number(price) *  Number(itemCountValue.textContent)} ₽`;
+
+      const newTotalSum = Number(sessionStorage.getItem('totalSum') - Number(price));
+      totalSumElement.textContent = `₽ ${newTotalSum}`;
+      sessionStorage.setItem('totalSum', newTotalSum);
     } else {
       itemCountValue.textContent = 1;
     }
-
-    itemTotalPrice.textContent = `${Number(price) *  Number(itemCountValue.textContent)} ₽`;
   });
 
   itemButtonPlus.addEventListener('click', _ => {
@@ -46,6 +56,10 @@ const createItem = itemsInCart => {
 
     itemCountValue.textContent = count + 1;
     itemTotalPrice.textContent = `${Number(price) *  Number(itemCountValue.textContent)} ₽`;
+
+    const newTotalSum = Number(sessionStorage.getItem('totalSum')) + Number(price);
+    totalSumElement.textContent = `₽ ${newTotalSum}`;
+    sessionStorage.setItem('totalSum', newTotalSum);
   });
 
   return item;
@@ -57,5 +71,5 @@ const addItemFromArray = (itemsInCart, itemsList) => {
   });
 }
 
-addItemFromArray(JSON.parse(sessionStorage.getItem('itemsInCart')), itemsList);
+addItemFromArray(itemsInCart, itemsList);
 
