@@ -1,7 +1,8 @@
 import '../pages/index.css';
-import { headphones } from '../utils/data';
+import { headphones, wirelessHeadphones } from '../utils/data';
 
 const headphonesList = document.querySelector('.headphones__list');
+const wirelessHeadphonesList = document.querySelector('.wireless-headphones-list');
 
 const createHeadphonesItem = headphonesItem => {
   const templateHeadphones = document.querySelector('#template-headphones').content;
@@ -35,3 +36,5 @@ const addHeadphonesFromArray = (headphones, headphonesList) => {
 }
 
 addHeadphonesFromArray(headphones, headphonesList);
+
+addHeadphonesFromArray(wirelessHeadphones, wirelessHeadphonesList);
